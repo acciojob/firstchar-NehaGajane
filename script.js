@@ -2,7 +2,9 @@ function firstChar(text) {
   // your code here
 	if(text.charAt(0)===" ") return "";
 	
-	return text.charAt(0);
+	let x = text.charAt(0);
+
+	return x;
 }
 
 // Do not change the code below
