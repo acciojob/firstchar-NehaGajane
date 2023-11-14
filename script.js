@@ -1,9 +1,12 @@
 function firstChar(text) {
   // your code here
-	if(text.charAt(0)===" ") return "";
+	if(text.length <= 0) return "";
 	
-	let x = text.charAt(0);
-
+	let x;
+	
+	if(text.charAt(0) == " " && text.length >=0) {
+		x = text.charAt(1);
+	}
 	return x;
 }
 
