@@ -7,6 +7,9 @@ function firstChar(text) {
 	if(text.charAt(0) == " " && text.length >=0) {
 		x = text.charAt(1);
 	}
+	else {
+		x = text.charAt(0);
+	}
 	return x;
 }
 
