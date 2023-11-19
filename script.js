@@ -1,6 +1,6 @@
 function firstChar(text) {
   // your code here
-	if(text.length <= 0) return "";
+	if(text.length <= 1) return "";
 	
 	let x;
 	
